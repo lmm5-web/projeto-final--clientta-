@@ -16,10 +16,12 @@
 
 ## 🧩 Bloco 1 — Nome e pitch do app
 
-**Nome do app:** _(máx. 30 caracteres — é o mesmo que vai na loja)_
+**Nome do app:** _(Clientta)_
 
 **Pitch em uma frase:**
-> "O **[nome]** ajuda **[quem]** a **[fazer o quê]** sem precisar de **[o problema atual]**."
+"O Clientta ajuda profissionais de clínicas de estética e outras clínicas a organizar seus atendimentos e agilizar o agendamento e o pré-atendimento dos clientes sem precisar de agendas e formulários de papel e de processos manuais para organizar informações e horários."
+
+> "O **[Clientta]** ajuda **[profissionais do corpo clinico]** a **[fazer o quê]** sem precisar de **[o problema atual]**."
 
 *Exemplo: "O TreinoDiário ajuda alunos de academia a registrar séries e cargas sem precisar de caderno de papel."*
 
@@ -29,12 +31,16 @@
 
 Qual dor real vocês estão resolvendo? Descrevam uma situação concreta que alguém vive hoje.
 
--
--
+-O cliente muitas vezes precisa entrar em contato com a clínica para descobrir preços, tratamentos disponíveis e horários, tornando o processo de agendamento mais demorado, pois depende da disponibilidade do profissional para responder. além disso, muitas vezes possíveis clientes se sentem constrangidos em entrar em contato para perguntar sobre preços.
+
+-Profissionais precisam organizar consultas, horários e informações dos clientes, além de coletar questionários, termos de responsabilidade e autorizações, muitas vezes utilizando papel ou diferentes meios de comunicação.
+
+- Muitas vezes também ocorre perda de documentos importantes ou confusão nos agendamentos por excesso de papelada, o que dificulta o cotidiano dos profissionais e afeta o atendimento ao cliente.
+
 
 **Como esse problema é resolvido hoje (sem o app)?**
 
--
+-O cliente normalmente entra em contato por WhatsApp, telefone ou presencialmente para perguntar sobre tratamentos, preços e disponibilidade de horários. Após o agendamento, questionários e termos podem ser preenchidos manualmente ou em papel, enquanto o profissional precisa controlar sua agenda separadamente.
 
 ---
 
