@@ -21,9 +21,7 @@
 **Pitch em uma frase:**
 "O Clientta ajuda profissionais de clínicas de estética e outras clínicas a organizar seus atendimentos e agilizar o agendamento e o pré-atendimento dos clientes sem precisar de agendas e formulários de papel e de processos manuais para organizar informações e horários."
 
-> "O **[Clientta]** ajuda **[profissionais do corpo clinico]** a **[fazer o quê]** sem precisar de **[o problema atual]**."
 
-*Exemplo: "O TreinoDiário ajuda alunos de academia a registrar séries e cargas sem precisar de caderno de papel."*
 
 ---
 
@@ -31,16 +29,12 @@
 
 Qual dor real vocês estão resolvendo? Descrevam uma situação concreta que alguém vive hoje.
 
--O cliente muitas vezes precisa entrar em contato com a clínica para descobrir preços, tratamentos disponíveis e horários, tornando o processo de agendamento mais demorado, pois depende da disponibilidade do profissional para responder. além disso, muitas vezes possíveis clientes se sentem constrangidos em entrar em contato para perguntar sobre preços.
-
--Profissionais precisam organizar consultas, horários e informações dos clientes, além de coletar questionários, termos de responsabilidade e autorizações, muitas vezes utilizando papel ou diferentes meios de comunicação.
-
-- Muitas vezes também ocorre perda de documentos importantes ou confusão nos agendamentos por excesso de papelada, o que dificulta o cotidiano dos profissionais e afeta o atendimento ao cliente.
+-O cliente muitas vezes precisa entrar em contato com a clínica para descobrir preços, tratamentos disponíveis e horários, tornando o processo de agendamento mais demorado, pois depende da disponibilidade do profissional para responder. Por exemplo, profissionais como Danielle Macêdo da Uniclin que precisa organizar consultas e horários , além de coletar questionários, termos de responsabilidade e autorizações, muitas vezes utilizando papel. Como resultado, muitas vezes ocorre perda de documentos importantes ou confusão nos agendamentos por excesso de papelada, o que dificulta o cotidiano dos profissionais e afeta o atendimento ao cliente. Além disso, muitas vezes possíveis clientes se sentem constrangidos em entrar em contato para perguntar sobre preços e informações importantres.
 
 
 **Como esse problema é resolvido hoje (sem o app)?**
 
--O cliente normalmente entra em contato por WhatsApp, telefone ou presencialmente para perguntar sobre tratamentos, preços e disponibilidade de horários. Após o agendamento, questionários e termos podem ser preenchidos manualmente ou em papel, enquanto o profissional precisa controlar sua agenda separadamente.
+-O cliente normalmente entra em contato por WhatsApp ou presencialmente atrás de informações. Após o agendamento, questionários e termos precisam ser preenchidos manualmente ou em papel, enquanto o profissional precisa controlar sua agenda separadamente e guardar toda a papelada.
 
 ---
 
@@ -48,9 +42,9 @@ Qual dor real vocês estão resolvendo? Descrevam uma situação concreta que al
 
 Para quem é o app? Sejam específicos (idade, contexto, com que frequência usariam).
 
-- **Perfil principal:**
-- **Quando/onde usam:**
-- **Uma pessoa real que testaria o app:** _(nome e relação com o grupo — ela vai testar o `.apk` na Etapa 3)_
+- **Perfil principal:** Principalmente para adultos, focando em facilitar o uso para o cliente. 
+- **Quando/onde usam:** o link para o app será disponibilizado nas redes sociais da clinica e como mensagem automática no whatsapp. usaram quando for preciso agendar alguma consulta ou verificar os tratamentos oferecidos na clinica e suas informações.
+- **Uma pessoa real que testaria o app:** _(Danielle Macêdo Sales Mendes, mãe de uma das integrantes do grupo e profissional estética)_
 
 ---
 
@@ -58,9 +52,9 @@ Para quem é o app? Sejam específicos (idade, contexto, com que frequência usa
 
 Descreva o que a **tela principal** mostra e o que o usuário consegue fazer nela.
 
-- **A tela principal lista:**
-- **A ação principal do usuário é:**
-- **Depois de agir, o usuário vê:**
+- **A tela principal lista:**tratamentos disponíveis, preços, opção de agendamento, agendamentos já realizados e acesso ao pré-atendimento.
+- **A ação principal do usuário é:**Escolher um tratamento e realizar o agendamento de forma rápida e intuitiva.
+- **Depois de agir, o usuário vê:**A confirmação do atendimento, com o tratamento escolhido, data, horário e informações necessárias para o pré-atendimento.
 
 ---
 
