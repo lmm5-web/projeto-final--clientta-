@@ -42,8 +42,8 @@ Qual dor real vocês estão resolvendo? Descrevam uma situação concreta que al
 
 Para quem é o app? Sejam específicos (idade, contexto, com que frequência usariam).
 
-- **Perfil principal:** Principalmente para adultos, focando em facilitar o uso para o cliente. 
-- **Quando/onde usam:** o link para o app será disponibilizado nas redes sociais da clinica e como mensagem automática no whatsapp. usaram quando for preciso agendar alguma consulta ou verificar os tratamentos oferecidos na clinica e suas informações.
+- **Perfil principal:** Principalmente para adultos, focando em facilitar o uso para o cliente e a comunicação entre ele e a clinica. 
+- **Quando/onde usam:** o link para o app será disponibilizado nas redes sociais da clinica e como mensagem automática no whatsapp. será usado no cotidiano, quando for preciso agendar alguma consulta ou verificar os tratamentos oferecidos na clinica e suas informações.
 - **Uma pessoa real que testaria o app:** _(Danielle Macêdo Sales Mendes, mãe de uma das integrantes do grupo e profissional estética)_
 
 ---
@@ -60,24 +60,23 @@ Descreva o que a **tela principal** mostra e o que o usuário consegue fazer nel
 
 ## ✅ Bloco 5 — Funcionalidades do MVP
 
-Máximo de **4 funcionalidades**. Se tiver mais, corte. Lembre: *qualidade acima de complexidade*.
+Máximo de **4 funcionalidades**.
 
 | # | Funcionalidade | Essencial? | Quem faz |
 |---|---|---|---|
-| F1 | | Sim | |
-| F2 | | Sim | |
-| F3 | | Sim/Não | |
-| F4 | | Não | |
+| F1 |Visualizar tratamentos e preços | Sim | Cliente |
+| F2 |Realizar e visualizar agendamentos | Sim |Cliente |
+| F3 |Preencher questionários e termos de pré-atendimento | Sim/Não |Cliente |
+| F4 |Organizar agenda e informações dos clientes |Sim  |Cliente |
 
 ---
 
 ## 🚫 Bloco 6 — Fora do escopo
 
 O que o app **não** vai fazer nesta entrega. Escrever isso aqui protege vocês de perder o prazo.
-
-- ❌
-- ❌
-- ❌
+❌ Pagamentos pelo aplicativo.
+❌ Chat ou atendimento por mensagem dentro do aplicativo.
+❌ Notificações push e integrações externas nesta primeira versão.
 
 *Sugestões comuns de coisas a deixar de fora: login/cadastro, notificações push, chat, mapa, pagamento, modo offline completo, sincronização em nuvem.*
 
@@ -87,51 +86,51 @@ O que o app **não** vai fazer nesta entrega. Escrever isso aqui protege vocês 
 
 Marque **uma** opção (as três valem a mesma nota):
 
-- [ ] **Opção A — Room:** dados salvos no próprio celular (lista de compras, agenda, diário de treino, controle financeiro)
+- [X] **Opção A — Room:** dados salvos no próprio celular (lista de compras, agenda, diário de treino, controle financeiro)
 - [ ] **Opção B — Retrofit:** dados vindos de uma API pública (notícias, filmes, feed, clima)
 - [ ] **Opção C — Desafio:** API + salvar favoritos localmente
 
-**Se escolheu B ou C — qual API?** _(link da documentação + precisa de chave? é gratuita?)_
+**Se escolheu B ou C — qual API?**
 
-**Bibliotecas que o grupo vai usar:**
+**Bibliotecas que o grupo vai usar:**Room, Android Jetpack e Material 3.
 
-**Onde entra o `try/catch`?** _(qual operação pode falhar: banco vazio, internet caindo, API fora do ar, campo em branco)_
+**Onde entra o `try/catch`?**
 
-- Pode falhar:
-- O usuário vê a mensagem:
+- Pode falhar: operações de leitura/gravação dos dados, cadastro de informações incompletas ou problemas durante uma operação no banco.
+- O usuário vê a mensagem:“Não foi possível salvar as informações. Verifique os dados e tente novamente.”
 
 ---
 
 ## 🎨 Bloco 8 — Identidade visual
+Item        /   	Definição do grupo
 
-| Item | Definição do grupo |
-|---|---|
-| Nome exibido (`strings.xml`) | |
-| Cor principal (hex, em `Color.kt`) | `#______` |
-| Ideia do ícone (512×512) | |
-| `applicationId` | `br.edu.ifpe.______` |
-| Versão inicial | `1.0` (versionCode `1`) |
+Nome exibido (strings.xml):	Clientta
+Cor principa:l	#8F7AAE
+Cores complementares:	#F7F3F8, #F5EEDB, #E8DFF0
+Ideia do ícone 512×512:	Um símbolo simples que represente conexão, cuidado e organização, utilizando formas arredondadas e detalhes em lavanda
+applicationId:	br.edu.ifpe.clientta
+Versão inicial:	1.0 (versionCode 1)
 
 ---
 
 ## 👤 Bloco 9 — Equipe, papéis e riscos
+Integrante	/   Papel principal	Responsável por:
+Ana Clara	/ Dev telas	Desenvolvimento das telas, navegação e componentes da interface
+Sofia	/ Dev  dados (Room)	Implementação do banco de dados local e organização dos dados
+Letícia /	Design e identidade visual	Cores, ícones, organização visual e identidade do Clientta
+Maria Eduarda /	Documentação, build e entrega	README, documentação, organização do projeto, testes e geração do APK/AAB
 
-| Integrante | Papel principal | Responsável por |
-|---|---|---|
-| | Dev / telas | |
-| | Dev / dados (Room ou Retrofit) | |
-| | Design e identidade visual | |
-| | Documentação, build e entrega | |
+Todas as integrantes participam da programação. O papel define quem responde principalmente por cada parte do projeto, mas as decisões e revisões são feitas em conjunto.
 
-> Todos programam. O "papel" define quem **responde** por aquela parte, não quem trabalha sozinho.
+Riscos — o que pode dar errado e o plano B:
 
-**Riscos — o que pode dar errado e o plano B:**
+Risco:                          
+-Dificuldade na implementação do Room ou surgimento de erros no banco de dados
+-A interface ficar muito complexa ou difícil de usar
 
-| Risco | Plano B |
-|---|---|
-| | |
-| | |
-
+Plano B:
+-Simplificar a estrutura do banco, revisar a implementação em conjunto e testar cada operação separadamente
+-Reduzir a quantidade de elementos, manter apenas as funções essenciais e realizar testes com pessoas de fora do grupo
 ---
 
 ## 🤖 Bloco 10 — Acordo de trabalho com IA
@@ -140,21 +139,25 @@ A implementação pode ser feita com o **Gemini no Android Studio**. Vocês orie
 
 **Três regras que vamos escrever no nosso `AGENTS.md`** _(o arquivo que diz à IA como trabalhar no nosso projeto)_:
 
-1.
-2.
-3.
+1.A IA deve seguir a proposta do Clientta, mantendo a interface simples, intuitiva, acessível e com cores neutras e pastéis.
+2.Nenhum código gerado pela IA será aceito sem que uma integrante leia, teste e consiga explicar o que foi alterado.
+3.A IA deve priorizar soluções simples e compatíveis com o MVP, evitando adicionar funcionalidades que não estejam previstas no projeto.
 
 **Combinados do grupo:**
 
-- [ ] Ninguém clica *Accept* no Agent Mode sem ler a mudança inteira.
-- [ ] Quem aceitou o código escreve o comentário de fronteira do arquivo.
-- [ ] Antes de cada marco, revisamos juntos: alguém aqui não entende alguma parte?
-- [ ] Nenhuma chave de API ou senha vai para o prompt.
-- Outro combinado nosso:
+- [X] Ninguém clica *Accept* no Agent Mode sem ler a mudança inteira.
+- [X] Quem aceitou o código escreve o comentário de fronteira do arquivo.
+- [X] Antes de cada marco, revisamos juntos: alguém aqui não entende alguma parte?
+- [X] Nenhuma chave de API ou senha vai para o prompt.
+- [X]Outro combinado nosso: Todas as integrantes devem testar as funcionalidades principais antes da entrega e comunicar ao grupo qualquer erro encontrado.
 
-**Como vamos garantir que todos entendem tudo** _(ex.: quem implementa apresenta o arquivo aos outros; revezar as partes; revisar o pull request do colega)_:
+**Como vamos garantir que todos entendem tudo**:
 
--
+-A integrante responsável por uma parte apresenta o código para as outras integrantes.
+-As integrantes devem revisar e testar as alterações feitas pelas colegas.
+-O grupo fará revisões conjuntas antes de cada marco do projeto.
+-As tarefas serão revezadas sempre que possível para que todas tenham contato com telas, dados e código.
+-Antes da entrega, cada integrante deverá fazer pelo menos uma pequena alteração no projeto sozinha, garantindo que consegue compreender e modificar o código.
 
 ---
 
