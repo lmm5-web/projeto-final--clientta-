@@ -67,7 +67,7 @@ Máximo de **4 funcionalidades**.
 | F1 |Visualizar tratamentos e preços | Sim | Cliente |
 | F2 |Realizar e visualizar agendamentos | Sim |Cliente |
 | F3 |Preencher questionários e termos de pré-atendimento | Sim/Não |Cliente |
-| F4 |Organizar agenda e informações dos clientes |Sim  |Cliente |
+| F4 |Organizar agenda e informações dos clientes |Sim  |Profissional |
 
 ---
 
