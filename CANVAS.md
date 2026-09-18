@@ -114,11 +114,13 @@ Versão inicial:	1.0 (versionCode 1)
 ---
 
 ## 👤 Bloco 9 — Equipe, papéis e riscos
-Integrante	/   Papel principal	Responsável por:
-Ana Clara	/ Dev telas	Desenvolvimento das telas, navegação e componentes da interface
-Sofia	/ Dev  dados (Room)	Implementação do banco de dados local e organização dos dados
-Letícia /	Design e identidade visual	Cores, ícones, organização visual e identidade do Clientta
-Maria Eduarda /	Documentação, build e entrega	README, documentação, organização do projeto, testes e geração do APK/AAB
+
+| Integrante | Papel principal | Responsável por |
+|---|---|---|
+|Ana Clara | Dev / telas | |
+|Sofia | Dev / dados (Room ou Retrofit) | |
+|Letícia | Design e identidade visual | |
+|Maria Eduarda | Documentação, build e entrega | |
 
 Todas as integrantes participam da programação. O papel define quem responde principalmente por cada parte do projeto, mas as decisões e revisões são feitas em conjunto.
 
@@ -126,11 +128,14 @@ Riscos — o que pode dar errado e o plano B:
 
 Risco:                          
 -Dificuldade na implementação do Room ou surgimento de erros no banco de dados
+
 -A interface ficar muito complexa ou difícil de usar
 
 Plano B:
 -Simplificar a estrutura do banco, revisar a implementação em conjunto e testar cada operação separadamente
+
 -Reduzir a quantidade de elementos, manter apenas as funções essenciais e realizar testes com pessoas de fora do grupo
+
 ---
 
 ## 🤖 Bloco 10 — Acordo de trabalho com IA
