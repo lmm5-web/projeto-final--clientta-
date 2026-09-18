@@ -74,11 +74,13 @@ Máximo de **4 funcionalidades**.
 ## 🚫 Bloco 6 — Fora do escopo
 
 O que o app **não** vai fazer nesta entrega. Escrever isso aqui protege vocês de perder o prazo.
+
 ❌ Pagamentos pelo aplicativo.
+
 ❌ Chat ou atendimento por mensagem dentro do aplicativo.
+
 ❌ Notificações push e integrações externas nesta primeira versão.
 
-*Sugestões comuns de coisas a deixar de fora: login/cadastro, notificações push, chat, mapa, pagamento, modo offline completo, sincronização em nuvem.*
 
 ---
 
@@ -97,6 +99,7 @@ Marque **uma** opção (as três valem a mesma nota):
 **Onde entra o `try/catch`?**
 
 - Pode falhar: operações de leitura/gravação dos dados, cadastro de informações incompletas ou problemas durante uma operação no banco.
+  
 - O usuário vê a mensagem:“Não foi possível salvar as informações. Verifique os dados e tente novamente.”
 
 ---
@@ -145,7 +148,9 @@ A implementação pode ser feita com o **Gemini no Android Studio**. Vocês orie
 **Três regras que vamos escrever no nosso `AGENTS.md`** _(o arquivo que diz à IA como trabalhar no nosso projeto)_:
 
 1.A IA deve seguir a proposta do Clientta, mantendo a interface simples, intuitiva, acessível e com cores neutras e pastéis.
+
 2.Nenhum código gerado pela IA será aceito sem que uma integrante leia, teste e consiga explicar o que foi alterado.
+
 3.A IA deve priorizar soluções simples e compatíveis com o MVP, evitando adicionar funcionalidades que não estejam previstas no projeto.
 
 **Combinados do grupo:**
