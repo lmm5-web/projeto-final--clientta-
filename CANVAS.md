@@ -6,10 +6,10 @@
 | | |
 |---|---|
 | **Grupo nº** | |
-| **Integrantes (3 a 4)** | |
+| **Integrantes (3 a 4)** |4 |
 | **Turma** | 3º ano — Ensino Médio |
-| **Repositório** | `https://github.com/____/____` |
-| **Data de preenchimento** | ___/___/2026 |
+| **Repositório** | `https://github.com/lmm5-web/projeto-final--clientta-` |
+| **Data de preenchimento** | _16__/_09__/2026 |
 | **Entrega final** | **10/12/2026** |
 
 ---
