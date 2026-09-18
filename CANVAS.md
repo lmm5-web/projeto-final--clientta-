@@ -154,9 +154,13 @@ A implementação pode ser feita com o **Gemini no Android Studio**. Vocês orie
 **Como vamos garantir que todos entendem tudo**:
 
 -A integrante responsável por uma parte apresenta o código para as outras integrantes.
+
 -As integrantes devem revisar e testar as alterações feitas pelas colegas.
+
 -O grupo fará revisões conjuntas antes de cada marco do projeto.
+
 -As tarefas serão revezadas sempre que possível para que todas tenham contato com telas, dados e código.
+
 -Antes da entrega, cada integrante deverá fazer pelo menos uma pequena alteração no projeto sozinha, garantindo que consegue compreender e modificar o código.
 
 ---
