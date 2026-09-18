@@ -117,10 +117,10 @@ Versão inicial:	1.0 (versionCode 1)
 
 | Integrante | Papel principal | Responsável por |
 |---|---|---|
-|Ana Clara | Dev / telas | |
-|Sofia | Dev / dados (Room ou Retrofit) | |
-|Letícia | Design e identidade visual | |
-|Maria Eduarda | Documentação, build e entrega | |
+|Ana Clara | Dev / telas |Desenvolvimento das telas, navegação e componentes da interface |
+|Sofia | Dev / dados (Room ou Retrofit) |Implementação do banco de dados local e organização dos dados |
+|Letícia | Design e identidade visual |Cores, ícones, organização visual e identidade do Clientta |
+|Maria Eduarda | Documentação, build e entrega |README, documentação, organização do projeto, testes e geração do APK/AAB |
 
 Todas as integrantes participam da programação. O papel define quem responde principalmente por cada parte do projeto, mas as decisões e revisões são feitas em conjunto.
 
