@@ -48,29 +48,38 @@
 
 ## tecnologia
 
-esta seção pode ser atualizada de acordo com as tecnologias utilizadas no projeto.
-
-[Tecnologia 1]
-
-[Tecnologia 2]
-
-[Tecnologia 3]
-
-[Banco de dados]
-
-[Outras ferramentas]
+Kotlin — linguagem principal do projeto.
+Jetpack Compose — construção das interfaces.
+Material 3 — componentes e identidade visual da interface.
+Navigation Compose — navegação entre as telas.
+Room Database — persistência local de dados.
+Retrofit + Gson — comunicação com APIs.
+Kotlin Coroutines + Flow — operações assíncronas e fluxo de dados.
+KSP (Kotlin Symbol Processing) — processamento utilizado pelo Room.
+Android Studio — ambiente de desenvolvimento.
+Git e GitHub — controle de versão e compartilhamento do projeto.
 
 ## estrutura do projeto
-A estrutura abaixo é apenas um exemplo e pode ser adaptada à estrutura real do projeto.
-
 Clientta/
-├── src/
-├── components/
-├── pages/
-├── services/
-├── assets/
-├── README.md
-└── ...
+├── app/
+│   └── src/
+│       └── main/
+│           └── java/
+│               └── com.example.clientta/
+│                   ├── data/
+│                   │   ├── local/
+│                   │   ├── remote/
+│                   │   └── repository/
+│                   ├── model/
+│                   └── ui/
+│                       ├── features/
+│                       ├── navigation/
+│                       └── theme/
+├── gradle/
+├── build.gradle.kts
+├── settings.gradle.kts
+├── gradle.properties
+└── README.md
 
 ## instalação
 - clone o repositório:
@@ -78,12 +87,11 @@ Clientta/
 git clone URL_DO_REPOSITORIO
 
 - acesse a pasta do projeto:
-cd Clientta
-- instale as dependências:
-npm install
+cd projeto-final--clientta-
+-Abra o projeto no Android Studio
+Abra a pasta do projeto no Android Studio e aguarde a sincronização do Gradle.
 - execute o projeto:
-npm run dev
-Os comandos acima podem variar de acordo com as tecnologias utilizadas no projeto.
+Selecione um emulador Android ou dispositivo físico no Android Studio e clique em Run ▶.
 
 ## sobre o projeto
 
